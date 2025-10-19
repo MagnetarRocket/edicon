@@ -10,11 +10,11 @@ dticon: $(OBJS)
 	cc -o $@ $(OBJS) -lXm -lXt -lXpm -lX11 -lm
 
 clean:
-	rm -f $(OBJS) dticon
+	rm -f $(OBJS) edicon
 
 install:
-	install -m775 dticon /usr/bin/dticon
-	install -m664 dticon.1 /usr/share/man/man1/dticon.1
+	install -m775 edicon /usr/bin/edicon
+	install -m664 edicon.1 /usr/share/man/man1/edicon.1
 
 DialogBox.o: DialogBox.c DialogBoxP.h DialogBox.h
 dtIconShell.o: dtIconShell.c externals.h constants.h main.h utils.h process.h
