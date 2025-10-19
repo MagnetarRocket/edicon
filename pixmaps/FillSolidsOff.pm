@@ -1,0 +1,37 @@
+/* XPM */
+static char * FillSolidsOff[] = {
+/* width height ncolors cpp [x_hot y_hot] */
+"28 28 3 1 0 0",
+/* colors */
+" 	s background	m black	c #949494949494",
+".	s Color1	m black	c black",
+"X	s Color2	m white	c white",
+/* pixels */
+"                            ",
+"                            ",
+" .................          ",
+" .XXXXXXXXXXXXXXX.X         ",
+" .X              .X         ",
+" .X              .X         ",
+" .X              .X         ",
+" .X              .X         ",
+" .X              .X         ",
+" .X             .....       ",
+" .X           ..X.XXX..     ",
+" .X          .XX .X  XX.    ",
+" .X         .X   .X    X.   ",
+" .X        .X    .X     X.  ",
+" .X        .X    .X      .  ",
+" .................X       . ",
+"  XXXXXXXX.XXXXXXX        . ",
+"          .X              . ",
+"          .X              . ",
+"          .X              . ",
+"           .             .X ",
+"           .             .X ",
+"            .           .X  ",
+"             .         .X   ",
+"              ..     ..X    ",
+"                .....XX     ",
+"                XXXXX       ",
+"                            "};

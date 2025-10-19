@@ -1,0 +1,37 @@
+/* XPM */
+static char * SelectArea[] = {
+/* width height ncolors cpp [x_hot y_hot] */
+"28 28 3 1 0 0",
+/* colors */
+" 	s background	m black	c #949494949494",
+".	s iconColor1	m black	c black",
+"X	s iconColor2	m white	c white",
+/* pixels */
+"                            ",
+"                            ",
+"....  ..  ..  ..  ..  ....  ",
+"....  ..  ..  ..  ..  ....  ",
+"..XXX  XX  XX  XX  XX  X..X ",
+"..XXXX  XX  XX  XX  XX  ..XX",
+"  XX                      XX",
+"   X                       X",
+"..                      ..  ",
+"..X                     ..X ",
+"  XX                      XX",
+"   X                       X",
+"..                      ..  ",
+"..X                     ..X ",
+"  XX                      XX",
+"   X                       X",
+"..                      ..  ",
+"..X                     ..X ",
+"  XX                      XX",
+"   X                       X",
+"..                      ..  ",
+"..X                     ..X ",
+"....  ..  ..  ..  ..  ....XX",
+"....  ..  ..  ..  ..  ....XX",
+" XXXX  XX  XX  XX  XX  XXXXX",
+"  XXXX  XX  XX  XX  XX  XXXX",
+"                            ",
+"                            "};

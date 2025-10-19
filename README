@@ -1,0 +1,7 @@
+This is a standalone and somewhat modified version of CDE's icon editor
+dticon (http://sf.net/p/cdesktopenv).
+
+The color palette was extended to contain 16 colors.
+Some minor bugs were fixed.
+
+Feb 12 2023 alx@fastestcode.org

@@ -1,0 +1,27 @@
+.TH DTICON 1
+.SH NAME
+dticon - the Common Desktop Environment Icon Editor 
+.SH SYNOPSIS
+dticon [options] [file name]
+.SH DESCRIPTION
+The Icon Editor provides the facilities that enable the user to create new icons or modify existing ones.
+.PP
+The Icon Editor uses lines and geometric shape drawing tools in order to create new icons or modify existing ones\. It support XPM and XBM formats\. The Icon Editor, also is capable of grabbing images from the display and use them as bases for new icons\.
+.PP
+The file name argument must be a bitmap or pixmap file name\. If the file ends in \.pm or \.xpm suffix, it will try reading it as an XPM file first\. If it fails, it will try reading it as an XBM file\. If the file ends in \.bm or \.xbm suffix, it will try reading it as an XBM file first\. If it fails, it will try reading it as an XPM file\. If the file doesn’t match any of these suffixes, it will try reading it as an XPM file first\. If it fails it will try reading it as an XBM file\.
+.SH OPTIONS
+The following options are available from the command line: 
+.TP
+\fB-transparent\fP \fIcolor\fP
+See the \fBtransparentColor\fP resource description.
+.TP
+\fB-x\fP WxH
+This option specifies an initial geometry for the icon image. If a file is specified using the -f option, the size of that icon supersedes the geometry specified\.
+.SH RESOURCES
+.TP
+\fBtransparentColor\fP \fIcolor\fP
+Specifies color that should represent transparency. It will also be used as canvas background. When the image is saved to an XPM file, the color specified will be mapped to \fInone\fP.
+.TP
+\fBuseFileFilter\fP
+This resource instructs the Icon Editor to use the file filter feature in OPEN and SAVE dialogs\. 
+
