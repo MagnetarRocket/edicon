@@ -6,7 +6,7 @@ OBJS = dtIconShell.o event.o fileIO.o fileIODialog.o globals.o graphics.o \
 	image.o main.o newIconDialog.o process.o queryDialog.o stdErrDialog.o \
 	utils.o DialogBox.o NewCvt.o
 
-dticon: $(OBJS)
+edicon: $(OBJS)
 	cc -o $@ $(OBJS) -lXm -lXt -lXpm -lX11 -lm
 
 clean:
